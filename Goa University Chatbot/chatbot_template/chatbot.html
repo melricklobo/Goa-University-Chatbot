@@ -1,0 +1,95 @@
+<!-- chatbot style -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href='/z_chat_static/chatbot.css' rel='stylesheet' />
+    <script src='/z_chat_static/chatbot.js' defer='defer'></script>
+
+    <style>    </style>
+
+</head>
+
+<body>
+
+    <!-- chatbot ui -->
+    <div class="chat-screen" >
+        <div class="chat-header d-flex flex-row">
+            <img src="https://img.icons8.com/ios/100/000000/bot.png"/>
+            <div class="chat-header-title">
+                What can I help you with?
+            </div>
+        </div>
+
+
+        <!-- <div class="chat-body hide" id="scroll" > -->
+        <div class="chat-body" id="scroll"  >
+            <div class="chat-body-wrapper" id="chatbox">
+                <img class="body-bg-img" src="../imgs/apple-icon.png" alt="logo" > 
+                <p class="chat-bubble you "><span>Hello I am the University Bot How can I assist you?</span>
+                    <br><button type="button" class="btn btn-info custom" onclick='buttonAction(this)'>Administrative information</button>
+                    <br><button type="button" class="btn btn-info custom" onclick='buttonAction(this)'>Program details</button>
+                    <br><button type="button" class="btn btn-info custom" onclick='buttonAction(this)'>Department details</button>
+                    <br><button type="button" class="btn btn-info custom" onclick='buttonAction(this)'>College Details</button>
+                </p>
+            </div>
+            
+        </div>
+        <!-- <div class="chat-input hide"> -->
+        <div class="chat-input ">
+            <input type="text" placeholder="Type a message..." id="input_msg">
+            <div class="input-action-icon">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-send" id="send_button">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg></a>
+            </div>
+        </div>
+    </div>
+    <div class="chat-bot-icon">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-message-square animate">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-x ">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+    </div>
+
+    <script>
+
+    </script>
+
+
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
+        data-cf-settings="257be86a981729866f2fa61c-|49" defer=""></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        
+    </script>
+
+</body>
+
+</html>
